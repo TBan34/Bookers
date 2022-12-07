@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*Below:common*/
+span{
+  font-weight:bold;
+}
+
+/*Below:index.html.erb*/
+table{
+  border-spacing:10px;
+}
+
+.index{
+  margin:30px;
+}
+
+.index-post{
+  margin:10px 0;
+}
+
+/*Below:show.html.erb*/
+.show-data{
+  margin:30px 60px;
+}
+
+.show-link{
+  margin-left:30px;
+}
+
+/*Below:edit.html.erb*/
+.edit{
+  margin:30px;
+}
+
+.edit-update{
+  margin:10px 0;
+}
